@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 
 st.set_page_config(page_title="Simple Data Dashboard")
-df=pd.read_csv('D:/New folder/job_data.csv')
+df=pd.read_csv('job_data.csv')
 plt.style.use('dark_background')
 st.title("Simple Data Dashboard")
 st.header("Data Summary")
